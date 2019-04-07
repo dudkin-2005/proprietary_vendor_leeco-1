@@ -893,31 +893,68 @@ PRODUCT_COPY_FILES += \
 		vendor/leeco/s2/proprietary/vendor/lib/android.hidl.base@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hidl.base@1.0.so \
 		vendor/leeco/s2/proprietary/vendor/lib/android.hidl.memory@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hidl.memory@1.0.so \
 		vendor/leeco/s2/proprietary/vendor/lib/libbacktrace.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbacktrace.so \
-		vendor/leeco/s2/proprietary/vendor/lib/libbase.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbase.so
-		vendor/leeco/s2/proprietary/vendor/lib/libbcinfo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbcinfo.so
-		vendor/leeco/s2/proprietary/vendor/lib/libblas.so:$(TARGET_COPY_OUT_VENDOR)/lib/libblas.so
-		vendor/leeco/s2/proprietary/vendor/lib/libc++.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc++.so
-		vendor/leeco/s2/proprietary/vendor/lib/libcompiler_rt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcompiler_rt.so
-		vendor/leeco/s2/proprietary/vendor/lib/libcutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcutils.so
-		vendor/leeco/s2/proprietary/vendor/lib/libdexfile.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdexfile.so
-		vendor/leeco/s2/proprietary/vendor/lib/libft2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libft2.so
-		vendor/leeco/s2/proprietary/vendor/lib/libhardware.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhardware.so
-		vendor/leeco/s2/proprietary/vendor/lib/libhidlbase.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhidlbase.so
-		vendor/leeco/s2/proprietary/vendor/lib/libhidlmemory.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhidlmemory.so
-		libhidltransport.so:(TARGET_COPY_OUT_VENDOR)/lib/libhidltransport.so
-		libhwbinder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwbinder.so
-		libion.so:$(TARGET_COPY_OUT_VENDOR)/lib/libion.so
-		liblzma.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblzma.so
-		libpng.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpng.so
-		libRS_internal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libRS_internal.so
-		libRSCpuRef.so:$(TARGET_COPY_OUT_VENDOR)/lib/libRSCpuRef.so
-		libRSDriver.so:$(TARGET_COPY_OUT_VENDOR)/lib/libRSDriver.so
-		libui.so:$(TARGET_COPY_OUT_VENDOR)/lib/libui.so
-		libunwind.so:$(TARGET_COPY_OUT_VENDOR)/lib/libunwind.so
-		libunwindstack.so:$(TARGET_COPY_OUT_VENDOR)/lib/libunwindstack.so
-		libutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libutils.so
-		libutilscallstack.so:$(TARGET_COPY_OUT_VENDOR)/lib/libutilscallstack.so
-		libz.so:$(TARGET_COPY_OUT_VENDOR)/lib/libz.so
+		vendor/leeco/s2/proprietary/vendor/lib/libbase.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbase.so \
+		vendor/leeco/s2/proprietary/vendor/lib/libbcinfo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbcinfo.so \
+		vendor/leeco/s2/proprietary/vendor/lib/libblas.so:$(TARGET_COPY_OUT_VENDOR)/lib/libblas.so \
+		vendor/leeco/s2/proprietary/vendor/lib/libc++.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc++.so \
+		vendor/leeco/s2/proprietary/vendor/lib/libcompiler_rt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcompiler_rt.so \
+		vendor/leeco/s2/proprietary/vendor/lib/libcutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcutils.so \
+		vendor/leeco/s2/proprietary/vendor/lib/libdexfile.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdexfile.so \
+		vendor/leeco/s2/proprietary/vendor/lib/libft2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libft2.so \
+		vendor/leeco/s2/proprietary/vendor/lib/libhardware.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhardware.so \
+		vendor/leeco/s2/proprietary/vendor/lib/libhidlbase.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhidlbase.so \
+		vendor/leeco/s2/proprietary/vendor/lib/libhidlmemory.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhidlmemory.so \
+		vendor/leeco/s2/proprietary/vendor/lib/libhidltransport.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhidltransport.so \
+		vendor/leeco/s2/proprietary/vendor/lib/libhwbinder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwbinder.so \
+		vendor/leeco/s2/proprietary/vendor/lib/libion.so:$(TARGET_COPY_OUT_VENDOR)/lib/libion.so \
+		vendor/leeco/s2/proprietary/vendor/lib/liblzma.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblzma.so \
+		vendor/leeco/s2/proprietary/vendor/lib/libpng.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpng.so \
+		vendor/leeco/s2/proprietary/vendor/lib/libRS_internal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libRS_internal.so \
+		vendor/leeco/s2/proprietary/vendor/lib/libRSCpuRef.so:$(TARGET_COPY_OUT_VENDOR)/lib/libRSCpuRef.so \
+		vendor/leeco/s2/proprietary/vendor/lib/libRSDriver.so:$(TARGET_COPY_OUT_VENDOR)/lib/libRSDriver.so \
+		vendor/leeco/s2/proprietary/vendor/lib/libui.so:$(TARGET_COPY_OUT_VENDOR)/lib/libui.so \
+		vendor/leeco/s2/proprietary/vendor/lib/libunwind.so:$(TARGET_COPY_OUT_VENDOR)/lib/libunwind.so \
+		vendor/leeco/s2/proprietary/vendor/lib/libunwindstack.so:$(TARGET_COPY_OUT_VENDOR)/lib/libunwindstack.so \
+		vendor/leeco/s2/proprietary/vendor/lib/libutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libutils.so \
+		vendor/leeco/s2/proprietary/vendor/lib/libutilscallstack.so:$(TARGET_COPY_OUT_VENDOR)/lib/libutilscallstack.so \
+		vendor/leeco/s2/proprietary/vendor/lib/libz.so:$(TARGET_COPY_OUT_VENDOR)/lib/libz.so \
+		vendor/leeco/s2/proprietary/vendor/lib64/android.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.device@1.0.so \
+		vendor/leeco/s2/proprietary/vendor/lib64/android.hardware.camera.provider@2.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.provider@2.4-impl.so \
+		vendor/leeco/s2/proprietary/vendor/lib64/android.hardware.camera.provider@2.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.provider@2.4.so
+		vendor/leeco/s2/proprietary/vendor/lib64/android.hardware.graphics.allocator@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.graphics.allocator@2.0.so \
+		vendor/leeco/s2/proprietary/vendor/lib64/android.hardware.graphics.common@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.graphics.common@1.0.so \
+		vendor/leeco/s2/proprietary/vendor/lib64/android.hardware.graphics.common@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.graphics.common@1.1.so \
+		vendor/leeco/s2/proprietary/vendor/lib64/android.hardware.graphics.mapper@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.graphics.mapper@2.0.so \
+		vendor/leeco/s2/proprietary/vendor/lib64/android.hardware.graphics.mapper@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.graphics.mapper@2.1.so \
+		vendor/leeco/s2/proprietary/vendor/lib64/android.hardware.renderscript@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.renderscript@1.0.so \
+		vendor/leeco/s2/proprietary/vendor/lib/android.hidl.base@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hidl.base@1.0.so \
+		vendor/leeco/s2/proprietary/vendor/lib64/android.hidl.memory@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hidl.memory@1.0.so \
+		vendor/leeco/s2/proprietary/vendor/lib64/libbacktrace.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbacktrace.so \
+		vendor/leeco/s2/proprietary/vendor/lib64/libbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbase.so \
+		vendor/leeco/s2/proprietary/vendor/lib64/libbcinfo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbcinfo.so \
+		vendor/leeco/s2/proprietary/vendor/lib64/libblas.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libblas.so \
+		vendor/leeco/s2/proprietary/vendor/lib64/libc++.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc++.so \
+		vendor/leeco/s2/proprietary/vendor/lib64/libcompiler_rt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcompiler_rt.so \
+		vendor/leeco/s2/proprietary/vendor/lib64/libcutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcutils.so \
+		vendor/leeco/s2/proprietary/vendor/lib64/libdexfile.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdexfile.so \
+		vendor/leeco/s2/proprietary/vendor/lib64/libft2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libft2.so \
+		vendor/leeco/s2/proprietary/vendor/lib64/libhardware.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhardware.so \
+		vendor/leeco/s2/proprietary/vendor/lib64/libhidlbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhidlbase.so \
+		vendor/leeco/s2/proprietary/vendor/lib64/libhidlmemory.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhidlmemory.so \
+		vendor/leeco/s2/proprietary/vendor/lib64/libhidltransport.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhidltransport.so \
+		vendor/leeco/s2/proprietary/vendor/lib64/libhwbinder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwbinder.so \
+		vendor/leeco/s2/proprietary/vendor/lib64/libion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libion.so \
+		vendor/leeco/s2/proprietary/vendor/lib64/liblzma.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblzma.so \
+		vendor/leeco/s2/proprietary/vendor/lib64/libpng.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpng.so \
+		vendor/leeco/s2/proprietary/vendor/lib64/libRS_internal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libRS_internal.so \
+		vendor/leeco/s2/proprietary/vendor/lib64/libRSCpuRef.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libRSCpuRef.so \
+		vendor/leeco/s2/proprietary/vendor/lib64/libRSDriver.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libRSDriver.so \
+		vendor/leeco/s2/proprietary/vendor/lib64/libui.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libui.so \
+		vendor/leeco/s2/proprietary/vendor/lib64/libunwind.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libunwind.so \
+		vendor/leeco/s2/proprietary/vendor/lib64/libunwindstack.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libunwindstack.so \
+		vendor/leeco/s2/proprietary/vendor/lib64/libutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libutils.so \
+		vendor/leeco/s2/proprietary/vendor/lib64/libutilscallstack.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libutilscallstack.so \
+		vendor/leeco/s2/proprietary/vendor/lib64/libz.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libz.so \
 
 PRODUCT_PACKAGES += \
     libantradio \
