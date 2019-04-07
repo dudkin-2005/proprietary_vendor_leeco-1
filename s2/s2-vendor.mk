@@ -954,7 +954,7 @@ PRODUCT_COPY_FILES += \
 		vendor/leeco/s2/proprietary/vendor/lib64/libunwindstack.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libunwindstack.so \
 		vendor/leeco/s2/proprietary/vendor/lib64/libutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libutils.so \
 		vendor/leeco/s2/proprietary/vendor/lib64/libutilscallstack.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libutilscallstack.so \
-		vendor/leeco/s2/proprietary/vendor/lib64/libz.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libz.so \
+		vendor/leeco/s2/proprietary/vendor/lib64/libz.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libz.so
 
 PRODUCT_PACKAGES += \
     libantradio \
