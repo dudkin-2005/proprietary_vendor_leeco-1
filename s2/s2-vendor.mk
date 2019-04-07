@@ -883,7 +883,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db \
 		vendor/leeco/s2/proprietary/vendor/lib/android.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.camera.device@1.0.so \
 		vendor/leeco/s2/proprietary/vendor/lib/android.hardware.camera.provider@2.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.camera.provider@2.4-impl.so \
-		vendor/leeco/s2/proprietary/vendor/lib/android.hardware.camera.provider@2.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.camera.provider@2.4.so
+		vendor/leeco/s2/proprietary/vendor/lib/android.hardware.camera.provider@2.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.camera.provider@2.4.so \
 		vendor/leeco/s2/proprietary/vendor/lib/android.hardware.graphics.allocator@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.graphics.allocator@2.0.so \
 		vendor/leeco/s2/proprietary/vendor/lib/android.hardware.graphics.common@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.graphics.common@1.0.so \
 		vendor/leeco/s2/proprietary/vendor/lib/android.hardware.graphics.common@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.graphics.common@1.1.so \
@@ -920,7 +920,7 @@ PRODUCT_COPY_FILES += \
 		vendor/leeco/s2/proprietary/vendor/lib/libz.so:$(TARGET_COPY_OUT_VENDOR)/lib/libz.so \
 		vendor/leeco/s2/proprietary/vendor/lib64/android.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.device@1.0.so \
 		vendor/leeco/s2/proprietary/vendor/lib64/android.hardware.camera.provider@2.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.provider@2.4-impl.so \
-		vendor/leeco/s2/proprietary/vendor/lib64/android.hardware.camera.provider@2.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.provider@2.4.so
+		vendor/leeco/s2/proprietary/vendor/lib64/android.hardware.camera.provider@2.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.provider@2.4.so \
 		vendor/leeco/s2/proprietary/vendor/lib64/android.hardware.graphics.allocator@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.graphics.allocator@2.0.so \
 		vendor/leeco/s2/proprietary/vendor/lib64/android.hardware.graphics.common@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.graphics.common@1.0.so \
 		vendor/leeco/s2/proprietary/vendor/lib64/android.hardware.graphics.common@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.graphics.common@1.1.so \
@@ -954,7 +954,11 @@ PRODUCT_COPY_FILES += \
 		vendor/leeco/s2/proprietary/vendor/lib64/libunwindstack.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libunwindstack.so \
 		vendor/leeco/s2/proprietary/vendor/lib64/libutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libutils.so \
 		vendor/leeco/s2/proprietary/vendor/lib64/libutilscallstack.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libutilscallstack.so \
-		vendor/leeco/s2/proprietary/vendor/lib64/libz.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libz.so
+		vendor/leeco/s2/proprietary/vendor/lib64/libz.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libz.so \
+		vendor/leeco/s2/proprietary/vendor/lib64/android.hardware.configstore-utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.configstore-utils.so \
+		vendor/leeco/s2/proprietary/vendor/lib64/android.hardware.configstore@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.configstore@1.0.so \
+		vendor/leeco/s2/proprietary/vendor/lib/android.hardware.configstore-utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.configstore-utils.so \
+		vendor/leeco/s2/proprietary/vendor/lib/android.hardware.configstore@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.configstore@1.0.so
 
 PRODUCT_PACKAGES += \
     libantradio \
