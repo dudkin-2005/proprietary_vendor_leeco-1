@@ -880,7 +880,44 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.imsrtpservice@1.0_vendor.so \
     vendor/leeco/s2/proprietary/vendor/lib64/vendor.qti.latency@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.latency@2.0.so \
     vendor/leeco/s2/proprietary/vendor/lib64/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.voiceprint@1.0.so \
-    vendor/leeco/s2/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db
+    vendor/leeco/s2/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db \
+		vendor/leeco/s2/proprietary/vendor/lib/android.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.camera.device@1.0.so \
+		vendor/leeco/s2/proprietary/vendor/lib/android.hardware.camera.provider@2.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.camera.provider@2.4-impl.so \
+		vendor/leeco/s2/proprietary/vendor/lib/android.hardware.camera.provider@2.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.camera.provider@2.4.so
+		vendor/leeco/s2/proprietary/vendor/lib/android.hardware.graphics.allocator@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.graphics.allocator@2.0.so \
+		vendor/leeco/s2/proprietary/vendor/lib/android.hardware.graphics.common@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.graphics.common@1.0.so \
+		vendor/leeco/s2/proprietary/vendor/lib/android.hardware.graphics.common@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.graphics.common@1.1.so \
+		vendor/leeco/s2/proprietary/vendor/lib/android.hardware.graphics.mapper@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.graphics.mapper@2.0.so \
+		vendor/leeco/s2/proprietary/vendor/lib/android.hardware.graphics.mapper@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.graphics.mapper@2.1.so \
+		vendor/leeco/s2/proprietary/vendor/lib/android.hardware.renderscript@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.renderscript@1.0.so \
+		vendor/leeco/s2/proprietary/vendor/lib/android.hidl.base@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hidl.base@1.0.so \
+		vendor/leeco/s2/proprietary/vendor/lib/android.hidl.memory@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hidl.memory@1.0.so \
+		vendor/leeco/s2/proprietary/vendor/lib/libbacktrace.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbacktrace.so \
+		vendor/leeco/s2/proprietary/vendor/lib/libbase.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbase.so
+		vendor/leeco/s2/proprietary/vendor/lib/libbcinfo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbcinfo.so
+		vendor/leeco/s2/proprietary/vendor/lib/libblas.so:$(TARGET_COPY_OUT_VENDOR)/lib/libblas.so
+		vendor/leeco/s2/proprietary/vendor/lib/libc++.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc++.so
+		vendor/leeco/s2/proprietary/vendor/lib/libcompiler_rt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcompiler_rt.so
+		vendor/leeco/s2/proprietary/vendor/lib/libcutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcutils.so
+		vendor/leeco/s2/proprietary/vendor/lib/libdexfile.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdexfile.so
+		vendor/leeco/s2/proprietary/vendor/lib/libft2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libft2.so
+		vendor/leeco/s2/proprietary/vendor/lib/libhardware.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhardware.so
+		vendor/leeco/s2/proprietary/vendor/lib/libhidlbase.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhidlbase.so
+		vendor/leeco/s2/proprietary/vendor/lib/libhidlmemory.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhidlmemory.so
+		libhidltransport.so:(TARGET_COPY_OUT_VENDOR)/lib/libhidltransport.so
+		libhwbinder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwbinder.so
+		libion.so:$(TARGET_COPY_OUT_VENDOR)/lib/libion.so
+		liblzma.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblzma.so
+		libpng.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpng.so
+		libRS_internal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libRS_internal.so
+		libRSCpuRef.so:$(TARGET_COPY_OUT_VENDOR)/lib/libRSCpuRef.so
+		libRSDriver.so:$(TARGET_COPY_OUT_VENDOR)/lib/libRSDriver.so
+		libui.so:$(TARGET_COPY_OUT_VENDOR)/lib/libui.so
+		libunwind.so:$(TARGET_COPY_OUT_VENDOR)/lib/libunwind.so
+		libunwindstack.so:$(TARGET_COPY_OUT_VENDOR)/lib/libunwindstack.so
+		libutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libutils.so
+		libutilscallstack.so:$(TARGET_COPY_OUT_VENDOR)/lib/libutilscallstack.so
+		libz.so:$(TARGET_COPY_OUT_VENDOR)/lib/libz.so
 
 PRODUCT_PACKAGES += \
     libantradio \
